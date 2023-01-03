@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(94, 216, 83);
+}
+
+.character {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    height: 20vh;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: rgb(113, 107, 31);
+    border-radius: 5px;
+}
+
+.character-set {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#character-set-1 {
+    display: flex;
+    gap: 5px;
+}
+#character-set-2 {
+    display: flex;
+    gap: 5px;
+}
+
+#set-line {
+    width: 50px;
+    margin-left: 150px;
+    color: rgb(113, 107, 31);
+    border-radius: 5px;
+    height: 20px;
+    width: 60px;
+    font-size: .7rem;
+}
+
+.app-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}
