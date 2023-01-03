@@ -46,6 +46,7 @@ body {
     height: 20px;
     width: 60px;
     font-size: .7rem;
+    border: none;
 }
 
 .app-title {
@@ -91,5 +92,18 @@ body {
 }
 
 #scene-text {
+    border-radius: 5px;
+}
+
+#scene-output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#character-output {
+    width: 45vw;
+    height: 25vh;
+    background-color: white;
     border-radius: 5px;
 }

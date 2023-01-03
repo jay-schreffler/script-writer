@@ -13,11 +13,11 @@
         <div class="character-set">
             <div id="character-set-1">
                 <label id="character-1">Character 1:</label>
-                <input type="text">
+                <input id='character-1-input' type="text">
             </div>
             <div id="character-set-2">
                 <label id="character-2">Character 2:</label>
-            <input type="text">
+            <input id='character-2-input' type="text">
             </div>
             <button id="set-line">Apply</button>
         </div>  
@@ -29,14 +29,12 @@
     <div id="scene-input-container">
         <div id="choose-character">
             <label for="character-select">Select Character</label>
-            <select name="character-select" id="character-select">
-                <option value="TEST">TEST</option>
-            </select>
+            <select name="character-select" id="character-select"></select>
             <textarea name="scene-text" id="scene-text" cols="100" rows="10" style="resize: none;"></textarea>
         </div>
     </div>
     <div id="scene-output">
-        
+        <div id="character-output"></div>
     </div>
 </body>
 </html>
