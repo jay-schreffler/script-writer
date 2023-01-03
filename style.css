@@ -14,9 +14,10 @@ body {
     width: 50vw;
     height: 20vh;
     margin: auto;
-    margin-top: 10vh;
-    background-color: rgb(113, 107, 31);
+    margin-top: 5vh;
+    background-color: rgb(224, 176, 20);
     border-radius: 5px;
+    font-size: 1.3rem;
 }
 
 .character-set {
@@ -40,7 +41,7 @@ body {
 #set-line {
     width: 50px;
     margin-left: 150px;
-    color: rgb(113, 107, 31);
+    color: rgb(224, 176, 20);
     border-radius: 5px;
     height: 20px;
     width: 60px;
@@ -53,4 +54,42 @@ body {
     align-items: center;
     font-size: 1.5rem;
     color: white;
+}
+
+#scene-input-container {
+    display: flex;
+    width: 50vw;
+    height: 25vh;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: rgb(35, 99, 141);
+    border-radius: 5px;
+}
+
+#choose-character {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#character-select {
+    margin: 10px 0;
+    width: 125px;
+}
+
+#scene-output {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    height: 30vh;
+    margin: auto;
+    margin-top: 5vh;
+    background-color: rgb(211, 111, 214);
+    border-radius: 5px;
+}
+
+#scene-text {
+    border-radius: 5px;
 }
